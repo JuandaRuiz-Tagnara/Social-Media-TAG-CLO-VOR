@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 872.78 1080">
+  <defs><linearGradient id="g" x1="90.11" y1="-57.42" x2="570.99" y2="772.23" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#e639d4"/></linearGradient></defs>
+  <path fill="url(#g)" fill-rule="evenodd" d="M388.57,1016.28L47.83,819.57C18.24,802.48,0,770.9,0,736.73v-393.45c0-34.17,18.22-65.75,47.82-82.84L388.56,63.72c29.59-17.09,66.06-17.09,95.65,0l340.74,196.72c29.59,17.09,47.83,48.66,47.83,82.84v393.45c0,34.17-18.22,65.75-47.82,82.84l-340.73,196.73c-29.59,17.09-66.06,17.09-95.65,0Z"/>
+  <circle fill="#3057d1" cx="436.39" cy="540" r="321.93"/>
+  <path d="M316,370 H476 L556,450 V710 H316 Z" fill="none" stroke="#fff" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M476,370 V450 H556 Z" fill="#63e6dd" stroke="#63e6dd" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="356" y1="430" x2="412" y2="430" stroke="#fff" stroke-width="28" stroke-linecap="round"/>
+  <line x1="356" y1="482" x2="420" y2="482" stroke="#fff" stroke-width="28" stroke-linecap="round"/>
+  <line x1="356" y1="598" x2="516" y2="598" stroke="#63e6dd" stroke-width="28" stroke-linecap="round"/>
+  <line x1="356" y1="650" x2="466" y2="650" stroke="#63e6dd" stroke-width="28" stroke-linecap="round"/>
+  <line x1="256" y1="540" x2="616" y2="540" stroke="#63e6dd" stroke-width="28" stroke-linecap="round"/>
+</svg>
