@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 872.78 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 27.88px;
+      }
+
+      .cls-3, .cls-2 {
+        fill: #63e6d0;
+      }
+
+      .cls-4 {
+        fill: #3061d1;
+      }
+
+      .cls-5 {
+        fill: url(#Degradado_sin_nombre_5);
+      }
+
+      .cls-5, .cls-6 {
+        fill-rule: evenodd;
+      }
+
+      .cls-6 {
+        fill: url(#Degradado_sin_nombre_4);
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_5" data-name="Degradado sin nombre 5" x1="90.11" y1="-57.42" x2="570.99" y2="772.23" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#7ac4a3"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_4" data-name="Degradado sin nombre 4" x1="962.89" y1="-57.42" x2="1443.77" y2="772.23" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ff8"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path class="cls-5" d="M388.57,1016.28L47.83,819.57C18.24,802.48,0,770.9,0,736.73v-393.45c0-34.17,18.22-65.75,47.82-82.84L388.56,63.72c29.59-17.09,66.06-17.09,95.65,0l340.74,196.72c29.59,17.09,47.83,48.66,47.83,82.84v393.45c0,34.17-18.22,65.75-47.82,82.84l-340.73,196.73c-29.59,17.09-66.06,17.09-95.65,0Z"/>
+    <g>
+      <circle class="cls-4" cx="436.39" cy="540" r="320.38"/>
+      <g>
+        <g>
+          <path class="cls-3" d="M392.16,390.54c-1.38,18.67-17.64,32.69-36.31,31.3-18.67-1.38-32.69-17.64-31.3-36.31,1.38-18.67,17.64-32.69,36.31-31.3,18.67,1.38,32.69,17.64,31.3,36.31Z"/>
+          <circle class="cls-3" cx="535.95" cy="401.19" r="33.9"/>
+          <circle class="cls-3" cx="351.18" cy="484.96" r="33.9"/>
+          <circle class="cls-3" cx="528.78" cy="498.11" r="33.9"/>
+          <circle class="cls-3" cx="344" cy="581.89" r="33.9"/>
+          <circle class="cls-3" cx="521.6" cy="595.04" r="33.9"/>
+          <circle class="cls-3" cx="336.82" cy="678.81" r="33.9"/>
+          <circle class="cls-3" cx="514.42" cy="691.96" r="33.9"/>
+        </g>
+        <g>
+          <line class="cls-2" x1="452.36" y1="324.3" x2="420.42" y2="755.7"/>
+          <rect class="cls-1" x="262.69" y="323.71" width="347.39" height="432.58" rx="45.37" ry="45.37" transform="translate(41.07 -30.75) rotate(4.24)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <path class="cls-6" d="M1261.35,1016.28l-340.74-196.72c-29.59-17.09-47.83-48.66-47.83-82.84v-393.45c0-34.17,18.22-65.75,47.82-82.84l340.73-196.73c29.59-17.09,66.06-17.09,95.65,0l340.74,196.72c29.59,17.09,47.83,48.66,47.83,82.84v393.45c0,34.17-18.22,65.75-47.82,82.84l-340.73,196.73c-29.59,17.09-66.06,17.09-95.65,0Z"/>
+</svg>
