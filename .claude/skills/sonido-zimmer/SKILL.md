@@ -1,6 +1,6 @@
 ---
 name: sonido-zimmer
-description: Director de sonido para reels, historias y videos de redes (Clovai, Tagnara, Vortech) que aplica el método de Hans Zimmer al formato corto. Diseña el arco emocional sonoro, elige y edita la pista, mezcla voz + música + efectos con niveles medidos (LUFS, dBTP, LRA), construye transiciones, golpes y cierres con firma sonora, y verifica el master con un script de QA antes de publicar. Activa este skill SIEMPRE que el trabajo toque audio en video: reel, historia, video, música de fondo, pista, voz en off, locución, mezcla, niveles, dB, volumen, "se escucha bajo/alto", "la música tapa la voz", efectos de sonido, whoosh, transiciones, cierre, outro, logo sonoro, ducking, masterizar, exportar audio, o cuando un video vaya a publicarse y tenga (o deba tener) sonido. También cuando el usuario mencione a Hans Zimmer o pida "que suene como cine".
+description: Director de sonido para reels, historias y videos de redes (Clovai, Tagnara, Vortech) que aplica el método de Hans Zimmer al formato corto. Diseña el arco emocional sonoro, elige y edita la pista, mezcla voz + música + efectos con niveles medidos (LUFS, dBTP, LRA), construye transiciones, golpes y cierres con firma sonora, y verifica el master con un script de QA antes de publicar. Activa este skill SIEMPRE que el trabajo toque audio en video: reel, historia, video, música de fondo, pista, voz en off, locución, mezcla, niveles, dB, volumen, "se escucha bajo/alto", "la música tapa la voz", efectos de sonido, whoosh, transiciones, cierre, outro, logo sonoro, ducking, masterizar, exportar audio, o cuando un video vaya a publicarse y tenga (o deba tener) sonido. También cuando haya que elegir pista o canción ("qué música le pongo", "suena anticuado/aburrido", tendencias de audio), sincronizar efectos con la imagen, o pensar en la psicología de quien ve reels. También cuando el usuario mencione a Hans Zimmer o pida "que suene como cine".
 ---
 
 # SONIDO ZIMMER — Dirección de sonido para formato corto
@@ -29,7 +29,7 @@ Lo que estaba bien: el reel de instalaciones de Tagnara tiene movimiento (sube e
 Sigue las fases en orden. Las marcadas con ✓ requieren validación del usuario.
 
 ### 1. Brief emocional ✓
-Antes de tocar una pista, responde en 3 líneas:
+Pensar en quién mira y en qué contexto (`references/07-psicologia-audiencia.md`): modo scroll, decisión en 1–2 s, a menudo sin sonido. La plataforma premia tiempo de visualización, likes y envíos, y el audio mueve los tres. Antes de tocar una pista, responde en 3 líneas:
 - **Emoción objetivo:** qué debe sentir el espectador al final (control, alivio, orgullo, urgencia, confianza).
 - **Momento clave:** el segundo exacto donde está el mensaje (logo, cifra, frase del cliente).
 - **Fuentes:** ¿hay voz? ¿hay sonido real (ambiente de evento, gente, máquina)? ¿solo música?
@@ -49,11 +49,14 @@ final     FIRMA     cola/reverb + logo sonoro, termina en el último frame
 
 Plantillas por duración y objetivo en `references/04-arcos-y-marca.md`.
 
-### 3. Pista
-- Elegir por **pulso y textura**, no por melodía bonita. Zimmer: una idea fuerte repetida y transformada vence a diez ideas.
-- Medir el BPM y **cortar en el beat**: los cortes de imagen caen sobre golpes o primeros tiempos.
-- Editar la pista para que su clímax coincida con el momento clave (cortar, repetir compases, sacar la intro). Nunca dejar que la canción decida el ritmo del video.
-- Licencias: solo bibliotecas con licencia comercial o audio de la biblioteca de la plataforma; dejar registro de la fuente en la entrega.
+### 3. Pista ✓
+La pista tiene tres trabajos: **energía** (ritmo de corte), **emoción** (cómo leer la imagen) e **identidad** (que suene a la marca). Proceso completo en `references/06-pista-correcta.md`:
+- Definir **activación + valencia** antes que el género (tabla por tipo de pieza).
+- Elegir el **BPM** según el ritmo de corte (base Clovai: 110–120 o medio tiempo).
+- Descartar la pista si tiene 2 o más **marcadores de sonido anticuado** (ukelele/palmas, piano "inspirador", build de EDM, whoosh en cada corte, reverb enorme, intro larga).
+- Puntuar 2–3 candidatas con la **scorecard** (mínimo 14/18) y escucharlas en el celular.
+- Editar la pista: empezar donde ya hay groove, mover su cambio fuerte al momento clave y terminar en un final de frase. Nunca dejar que la canción decida el ritmo del video.
+- Cuentas de empresa: solo biblioteca comercial de la plataforma o música con licencia; registrar la fuente.
 
 ### 4. Voz
 Si hay voz, **la voz es la reina**: todo lo demás se mezcla alrededor de ella. Cadena estándar y niveles en `references/02-mezcla-y-niveles.md`. Resumen:
@@ -63,7 +66,9 @@ Si hay voz, **la voz es la reina**: todo lo demás se mezcla alrededor de ella. 
 - Música sin voz: puede subir a −16/−14 LUFS de corto plazo.
 
 ### 5. Efectos, transiciones y cierre
-Cada efecto debe **justificar un corte o un mensaje**. Si no lo hace, sobra. Catálogo con niveles y timing en `references/03-transiciones-efectos-cierres.md`:
+Cada efecto debe **justificar un corte o un mensaje**. Si no lo hace, sobra. Catálogo en `references/03-transiciones-efectos-cierres.md`. Entrada **al frame**, nivel por efecto, densidad máxima y traducción de lo visual a sonido en `references/08-sincronia-audiovisual.md`:
+- Clasificar cada evento visual en una jerarquía de 1 a 4. Solo los niveles 1 y 2 llevan efecto (más los clics de UI en demos).
+- Densidad: máximo 1 efecto cada 1.5 s, un solo impacto por pieza, nunca encima de una sílaba de la voz.
 - Riser/subida que termina **exactamente** en el corte (no 2 frames después).
 - Whoosh de −24 a −18 dB, nunca más fuerte que la voz.
 - Impacto/golpe grave en el momento clave, con 0.3 s de silencio antes.
@@ -107,11 +112,15 @@ Detalle en `references/01-metodo-zimmer.md` §5.
 - **El "BRAAAM" de tráiler** se volvió cliché por copia. No usar impactos de catálogo sin procesarlos.
 - **Ostinato infinito:** a los 8 compases sin cambio el oído deja de escucharlo. Cambiar algo cada 4–8 s.
 
+## Checklist del espectador (antes del QA técnico)
+Frame 1 que detiene el scroll · recompensa sobre el mensaje · algo cambia cada 3–5 s · voz clara en celular · una emoción dominante · funciona sin sonido · firma sonora · loop sin costura. Detalle en `references/07-psicologia-audiencia.md` §4.
+
 ## Entregables por pieza
 1. Video final (`*_final.mp4`) con audio masterizado.
 2. Reporte del QA con todas las reglas aprobadas.
 3. Mapa sonoro de 5 líneas (fase 2).
-4. Fuentes y licencias de música y efectos.
+4. Scorecard de la pista elegida (y por qué ganó).
+5. Fuentes y licencias de música y efectos.
 
 ## Referencias
 - `references/01-metodo-zimmer.md`: método, casos de estudio y qué aplicar de cada película.
@@ -119,3 +128,6 @@ Detalle en `references/01-metodo-zimmer.md` §5.
 - `references/03-transiciones-efectos-cierres.md`: catálogo de recursos con timing y nivel.
 - `references/04-arcos-y-marca.md`: plantillas de arco para 15/30/60 s e identidad sonora por marca.
 - `references/05-ffmpeg-recetas.md`: comandos sueltos para medir, cortar, aplicar fades, ducking y exportar.
+- `references/06-pista-correcta.md`: emoción → género, BPM y ritmo de corte, sonido anticuado frente a actual, tendencias y scorecard.
+- `references/07-psicologia-audiencia.md`: cómo procesa el audio quien hace scroll, audiencias de Clovai/Tagnara, checklist y fuentes.
+- `references/08-sincronia-audiovisual.md`: cuándo y a qué nivel entra cada efecto, densidad, de lo visual al sonido y jerarquía.
